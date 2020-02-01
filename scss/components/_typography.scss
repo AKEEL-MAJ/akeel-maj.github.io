@@ -1,0 +1,99 @@
+// // ======================================
+// //  Typography
+// // ======================================
+
+
+h1 {
+  color: #fff;
+  font-family: $deftone;
+  font-size: em(25px);
+
+  @include break-m {
+    font-size: em(40px);
+  }
+
+}
+
+h2, h3 {
+  font-family: $kirsty-rg;
+}
+
+h3 {
+  font-size: em(20px);
+
+  @include break-m {
+    font-size: em(30px);
+  }
+}
+
+.nav-item a {
+  font-family: $kirsty-ink;
+  font-size: em(13px);
+
+  @include break-m {
+    font-size: em(20px);
+  }
+}
+
+.full-name {
+  font-size: em(25px);
+
+  @include break-m {
+    font-size: em(35px);
+  }
+}
+
+.section-headline {
+  font-family: $kirsty-bd;
+  font-size: em(48px);
+  margin: em(20px);
+}
+
+p {
+  font-family: $georgia;
+  font-size: em(12px); 
+  line-height: 1.6;
+
+  @include break-m {
+    font-size: em(16px);
+  }
+}
+
+.pro-name {
+  color: #007BFF;
+  font-family: $georgia;
+  font-size: em(20px); 
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+.pro-description {
+  color: #fff;
+  font-family: $georgia;
+  font-size: em(12px); 
+  font-weight: 400;
+}
+
+.tech {
+  background-color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.contact-description {
+  font-family: $georgia;
+  font-size: em(20px);
+  font-weight: 500;
+}
+
+.email-text {
+  font-family: $georgia;
+  font-weight: 700;
+}
+
+a {
+  font-family: $georgia;
+  font-size: em(20px);
+  text-decoration: none;
+}
+

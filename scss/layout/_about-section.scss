@@ -1,0 +1,22 @@
+// ======================================
+//  About Styles
+// ======================================
+
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.bio {
+  margin: em(20px);
+  width: em(200px);
+  height: em(400px);
+
+  @include break-m {
+    width: em(250px);
+    height: em(500px);
+  }
+}

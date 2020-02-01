@@ -1,0 +1,48 @@
+// ======================================
+//  Base Styles
+// ======================================
+
+* {
+  color: $primary-color;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  position: relative;
+}
+
+
+
+
+
+
+
+// ======================================
+//  Font Styles
+// ======================================
+
+@font-face {
+  font-family: 'deftone';
+  src: url('../fonts/deftone-stylus.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'kirsty-bd';
+  src: url('../fonts/kirsty-bd.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'kirsty-ink';
+  src: url('../fonts/kirsty-ink.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'kirsty-rg';
+  src: url('../fonts/kirsty-rg.ttf') format('truetype');
+}
+
+

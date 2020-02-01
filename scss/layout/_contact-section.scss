@@ -1,0 +1,42 @@
+// ======================================
+//  Contact Styles
+// ======================================
+
+
+.contact-description {
+  text-align: center;
+  margin: em(20px);
+}
+
+
+.email-div {
+  margin: em(50px) em(20px);
+}
+
+
+.email-link {
+  background-color: #007bff;
+  border-radius: em(10px);
+  display: flex;
+  justify-content: space-around;
+
+  .email-image {
+    justify-content: start;
+  }
+
+  .email-text {
+    margin-top: em(15px);
+    justify-content: center;
+  }
+
+}
+
+
+.social {
+  display: flex;
+  justify-content: center;
+
+  li {
+    margin: em(20px);
+  }
+}

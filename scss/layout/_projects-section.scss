@@ -1,0 +1,58 @@
+// ======================================
+//  Projects Styles
+// ======================================
+
+
+.project-group {
+  margin: em(20px);
+  @include centered;
+}
+
+.project {
+  background-color: $primary-color;
+  margin: em(20px);
+  border: 1px solid $primary-color;
+}
+
+.pro-img-div {
+  position: relative;
+  width: em(300px);
+  height: em(225px);
+
+  .github-link {
+    position: absolute;
+    top: em(150px);
+    left: em(30px);
+  }
+
+  .project-link {
+    position: absolute;
+    top: em(150px);
+    right: em(30px);
+  }
+
+}
+
+
+.pro-details-div {
+  width: em(280px);
+  height: em(200px);
+  margin: 0px em(10px);
+  position: relative;
+
+  .tech-used {
+    display: flex;
+    justify-content: start;
+    position: absolute;
+    bottom: em(10px);
+
+    .tech {
+      padding: 2px;
+      font-weight: 900;
+      margin: 0 em(5px);
+      border-radius: 10%;
+    }
+
+  }
+
+}

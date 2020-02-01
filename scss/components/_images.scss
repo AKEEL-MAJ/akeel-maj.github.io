@@ -1,0 +1,26 @@
+// ======================================
+//  Image Styles
+// ======================================
+
+
+// about
+.profile-image {
+  width: em(175px);
+  height: em(250px);
+
+  @include break-m {
+    width: em(250px);
+    height: em(350px);
+  }
+}
+
+// skills
+.technology {
+  margin: em(20px);
+}
+
+// projects
+.project-image {
+  width: em(300px);
+  height: em(225px);
+}

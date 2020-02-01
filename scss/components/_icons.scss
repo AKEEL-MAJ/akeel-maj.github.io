@@ -1,0 +1,10 @@
+// ======================================
+//  Icon Styles
+// ======================================
+
+
+img[src$=".svg"] {
+  width: em(30px);
+  background-color: #007BFF;
+  border-radius: 50%;
+}
